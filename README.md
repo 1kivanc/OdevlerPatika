@@ -10,3 +10,7 @@ bootstrap-medium-clone.netlify.app
 ## Linkedin Clone
 
 ![image1](/bootstraplinkedinclone/linkedin-clone.png)
+
+## Todo list
+
+![image2](/todolist/view.png)
