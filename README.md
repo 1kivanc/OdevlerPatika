@@ -1,9 +1,8 @@
 # Patika Frontend Ödevleri
 
 ## Medium Clone 
-
-live Demo : 
-bootstrap-medium-clone.netlify.app
+ 
+[live demo](bootstrap-medium-clone.netlify.app)
 
 ![image](/medium-clone/medium-clone.png)
 
@@ -14,3 +13,8 @@ bootstrap-medium-clone.netlify.app
 ## Todo list
 
 ![image2](/todolist/view.png)
+
+## Asian kitchen menu
+
+[live Demo](https://asianmenu.netlify.app/)
+![iamge3](/asiankitchen/ss.png)
