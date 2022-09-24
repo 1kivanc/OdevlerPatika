@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;  
+  background-color: #323031;
+
+ width: 100%;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 0 20px;
+}
+.header{
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+#todo-form{
+  width: 400px;
+  background-color: #fff;
+  padding: 40px 20px;
+  border-radius: 15px;
+  color: #00DBDE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+input,button{
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid #00DBDE;
+
+}
+button{
+  background-color: transparent;
+  border: 1px solid #00DBDE;
+  margin-left: 20px;
+  color: #00DBDE;
+
+}
+input:focus{
+  outline: none;
+}
+.todo-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.todo-item{
+  font-size: 1.2rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+i{
+  cursor: pointer;
+}#delete{
+  color: red;
+}#delete:hover{
+  color:rgb(255, 135, 135);
+}
